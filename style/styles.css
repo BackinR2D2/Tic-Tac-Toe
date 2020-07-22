@@ -37,7 +37,7 @@ td{
     display: none;
 }
 
-@media (max-width: 500px){
+@media (max-width: 550px){
     .header{
         margin-top: 40%;
     }
