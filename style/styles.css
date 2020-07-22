@@ -36,3 +36,9 @@ td{
 .winner{
     display: none;
 }
+
+@media (max-width: 500px){
+    .header{
+        margin-top: 40%;
+    }
+}
