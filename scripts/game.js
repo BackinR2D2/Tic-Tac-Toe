@@ -83,12 +83,12 @@ function endGame(user, situation) {
     document.querySelector('.restartBtn').style.cssText = 'color: white; display: flex; justify-content: center; align-items: center; margin-top: 20%'
     if (user === 'X' && situation === true) {
         document.querySelector('.winner').textContent = `X won`
-        document.querySelector('.winner').style.cssText = 'color: white; display: block; text-align:center; margin-top: 10%; margin-bottom: -10%; font-size: 45px; font-weight: 800; text-decoration: underline'
+        document.querySelector('.winner').style.cssText = 'color: white; display: block; text-align:center; margin-bottom: -10%; font-size: 45px; font-weight: 800; text-decoration: underline'
     } else if (user === 'O' && situation === true) {
         document.querySelector('.winner').textContent = `O won`
-        document.querySelector('.winner').style.cssText = 'color: white; display: block; text-align:center; margin-top: 10%; margin-bottom: -10%; font-size: 45px; font-weight: 800; text-decoration: underline'
+        document.querySelector('.winner').style.cssText = 'color: white; display: block; text-align:center; margin-bottom: -10%; font-size: 45px; font-weight: 800; text-decoration: underline'
     } else if (user === 'draw' && situation === false) {
         document.querySelector('.winner').textContent = `Nobody won`
-        document.querySelector('.winner').style.cssText = 'color: white; display: block; text-align:center; margin-top: 10%; margin-bottom: -10%; font-size: 45px; font-weight: 800; text-decoration: underline'
+        document.querySelector('.winner').style.cssText = 'color: white; display: block; text-align:center; margin-bottom: -10%; font-size: 45px; font-weight: 800; text-decoration: underline'
     }
 }
